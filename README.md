@@ -4,7 +4,7 @@ A WordPress page template for a NTX Workshops landing page [(see project doc for
 ### Project Scope
 
 A landing page with:
-  - the event details of a workshop happening in September (*DONE* as shown [here](http://74.220.219.113/~neurote8/ntedu/workshops/))
+  - the event details of a workshop happening in September (the backend is done as shown [here](http://74.220.219.113/~neurote8/ntedu/workshops/))
   - a graphic or banner to tell people of the future workshops
 
 ### To Deliver
@@ -15,6 +15,7 @@ We convert the design to an HTML/CSS file with the placeholder text provided [he
 
 1. The PHP code `<?php the_field('[field name]')?>` will replace the corresponding placeholder sections.
 2. Once uploaded as `page-workshop.php` which is a WordPress page template file, WordPress will use the template to generate a web page by populating it with the values fetched from the database.
+
 
 We currently have the following field names.
 
