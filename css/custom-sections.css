@@ -134,8 +134,8 @@
 .workshop-img .btn {
   position: absolute;
   bottom: 45px;
-  right: 39%;
-  width: 203px;
+  right: 40%;
+  width: 20%;
   background-color: #23b3c6;
   color: #eee;
   transition: all .3s ease-in-out;
