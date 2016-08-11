@@ -116,10 +116,36 @@
 
 /******************************
 *
-*   Team Section
+*   Workshop Section
 *
 ******************************/
 
+.workshop-img img {
+  min-width: 100%
+}
+
+.workshop-img {
+  position:relative;
+  height: 275px;
+  overflow: hidden;
+  text-align:center;
+}
+
+.workshop-img .btn {
+  position: absolute;
+  bottom: 45px;
+  right: 39%;
+  width: 203px;
+  background-color: #23b3c6;
+  color: #eee;
+  transition: all .3s ease-in-out;
+}
+
+.workshop-img .btn:hover {
+  background-color: #eee;
+  color: #000;
+  border: 1px solid #000;
+}
 
 .team{
     padding-top: 50px;

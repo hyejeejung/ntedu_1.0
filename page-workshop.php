@@ -232,17 +232,15 @@
 							<?php the_field('workshop_title'); ?>
 						</div>
 
-						<div>
-	            <img src="img/feature_img1.jpg" alt="img"></a>
-	          </div>
+						<?php the_field('workshop_date_start'); ?>
 
-						<div>
-							<p>Date: <?php the_field('workshop_date_start'); ?> - <?php the_field('workshop_date_end'); ?></p>
-							<p>Time: <?php the_field('workshop_time_start'); ?> - <?php the_field('workshop_time_end'); ?></p>
-							<p>Date: <?php the_field('workshop_entry'); ?>
-							<p>Cost: <?php the_field('workshop_cost'); ?>
-							<p><?php the_field('workshop_level'); ?>
-							<p>Location: <?php the_field('workshop_location')?>
+						<?php the_field('workshop_time_start'); ?>
+						<?php the_field('workshop_date_end'); ?>
+						<?php the_field('workshop_time_end'); ?>
+						<?php the_field('workshop_entry'); ?>
+						<?php the_field('workshop_cost'); ?>
+						<?php the_field('workshop_level'); ?>
+						<?php the_field('workshop_location')?>
 
 						<?php
 
