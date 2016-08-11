@@ -1,6 +1,3 @@
-
-
-
 <!--
  *
  * NEUROTECHX CHAPTER TEMPLATE
@@ -218,6 +215,8 @@
 </header>
 
 <section id="workshops" class="container noBG-section">
+        <div class="col-xs-8 col-xs-offset-1 text-left">
+
 
 	<?php acf_form_head(); ?>
 		<div id="primary" class="fp-content-area">
@@ -229,15 +228,21 @@
 					<?php while ( have_posts() ) : the_post(); ?>
 						<?php the_content(); ?>
 
-						<?php the_field('workshop_title'); ?>
-						<?php the_field('workshop_date_start'); ?>
-						<?php the_field('workshop_time_start'); ?>
-						<?php the_field('workshop_date_end'); ?>
-						<?php the_field('workshop_time_end'); ?>
-						<?php the_field('workshop_entry'); ?>
-						<?php the_field('workshop_cost'); ?>
-						<?php the_field('workshop_level'); ?>
-						<?php the_field('workshop_location')?>
+						<div class="heading">
+							<?php the_field('workshop_title'); ?>
+						</div>
+
+						<div>
+	            <img src="img/feature_img1.jpg" alt="img"></a>
+	          </div>
+
+						<div>
+							<p>Date: <?php the_field('workshop_date_start'); ?> - <?php the_field('workshop_date_end'); ?></p>
+							<p>Time: <?php the_field('workshop_time_start'); ?> - <?php the_field('workshop_time_end'); ?></p>
+							<p>Date: <?php the_field('workshop_entry'); ?>
+							<p>Cost: <?php the_field('workshop_cost'); ?>
+							<p><?php the_field('workshop_level'); ?>
+							<p>Location: <?php the_field('workshop_location')?>
 
 						<?php
 
@@ -335,7 +340,6 @@
 
         </ul>
       </div>
-
 
       <h4 id="initiatives-header">Initiatives</h4>
 
